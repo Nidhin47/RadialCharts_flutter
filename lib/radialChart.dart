@@ -10,9 +10,9 @@ class RadialChartwidget extends StatefulWidget {
 
 class _RadialChartWidgetState extends State<RadialChartwidget> {
   List<RadialData> chartData = [
-    RadialData(90000, 'Energy'),
-    RadialData(20000, 'Water'),
-    RadialData(50000, 'Solar'),
+    RadialData(9000, 'Energy'),
+    RadialData(9000, 'Water'),
+    RadialData(15000, 'Solar'),
   ];
   @override
   Widget build(BuildContext context) {
